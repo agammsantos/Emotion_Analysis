@@ -13,7 +13,7 @@ The tweets in this dataset has been pre-processed using the following criterias:
 ## Important File Information
 There are two python program files in the repository, they are:
 1. twitter.py: consist of the code for data preparation, data analysis and visualization, and model building.
-2. twitterflask.py: consist of the code for the Flask interface, run this file to predict a tweet's emotion!
+2. twitterflask.py: consist of the code for the prediction I/O interface, run this file to predict a tweet's emotion!
 
 ## Methods Being Compared and Used for Emotion Prediction
 The data is separated into two parts. 80% for train and 20% for test. With the help of Count Vectorizer, the methods being used are: 
