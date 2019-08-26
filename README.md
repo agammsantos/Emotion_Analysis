@@ -19,6 +19,7 @@ There are two python program files in the repository, they are:
 The data is separated into two parts. 80% for train and 20% for test. With the help of Count Vectorizer, the methods being used are: 
 1. Multinomial Naive Bayes
 2. Complement Naive Bayes
+
 The interface for prediction input and output is made with Flask.
 
 ## Citation
