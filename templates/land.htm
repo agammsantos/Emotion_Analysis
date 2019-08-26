@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Emotion analysis: Twitter's Tweets</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="/static/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/static/fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+<link rel="stylesheet" type="text/css" href="/static/css/nivo-lightbox/nivo-lightbox.css">
+<link rel="stylesheet" type="text/css" href="/static/css/nivo-lightbox/default.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Navigation
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"> 
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand page-scroll" href="#page-top">Emotion analysis: Twitter's Tweets</a> </div>
+    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    </div>
+  </div>
+</nav>
+
+<!-- Prediction -->
+<div id="contact">
+  <div class="container">
+    <div class="col-md-20">
+      <div class="row">
+        <center>
+        <br>
+        <br>
+        <br>
+        <div>
+          <div class="intro">
+            <div class="overlay">
+                <h1>Fill in the Tweet!</h1>
+            </div>
+         </div>
+        </div>
+        <br>
+        <br>
+        </center>
+        <form action="http://localhost:5000/prediksi" method="post">
+            <textarea name="tweet" id="message" class="form-control" rows="4" placeholder="tweet" required></textarea>
+            <p class="help-block text-danger"></p>
+            <br>
+          <center>
+          <p style="font-size: 20px"><b>Predict a twitter's tweet emotion based on a machine learning method called Complement Naive Bayes. Predictions include the emotion of anger, fear, happy, love, and sadness. Prediction probability will also be presented by a barplot.</b></p> 
+          </center>
+          <br>
+        <center>
+            <input type="submit" value="Predict Emotion" class="btn btn-custom btn-lg">
+        </center>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer Section -->
+<div id="footer">
+  <div class="container text-center">
+    <p>&copy; 2017 Interact. Design by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+  </div>
+</div>
+<script type="text/javascript" src="/static/js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="/static/js/bootstrap.js"></script> 
+<script type="text/javascript" src="/static/js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="/static/js/nivo-lightbox.js"></script> 
+<script type="text/javascript" src="/static/js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="/static/js/main.js"></script>
+</body>
+</html>
