@@ -20,7 +20,7 @@ The data is separated into two parts. 80% for train and 20% for test. With the h
 1. Multinomial Naive Bayes
 2. Complement Naive Bayes
 
-The interface for prediction input and output is made with Flask.
+The interface for the prediction input and output is made with Flask.
 
 ## Citation
 If you want to publish a paper using this dataset and pre-trained word embedding, please cite this publication: <br />
